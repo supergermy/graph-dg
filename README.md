@@ -1,5 +1,5 @@
 # graph-dg
-Training set for graph-dg curated by Heechan Lee. Highly inspired by Ivan Anishchanko's work. `https://github.com/dauparas/ProteinMPNN/tree/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57/training`
+Training set for graph-dg curated by Heechan Lee. Highly inspired by Ivan Anishchanko. `https://github.com/dauparas/ProteinMPNN/tree/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57/training`
 
 ``` bash
 Each PDB entry is represented as .pt files.
@@ -9,7 +9,7 @@ PDBID.pt:
     seq  - amino acid sequence (string)
     xyz  - atomic coordinates [L,14,3]
     mask - boolean mask [L,14]
-    dG   - Kotaro's experiment results [L,20]
+    dG   - experiment results by Kotaro Tsuboyama [L,20]
 
 list.csv:
    PDBID      - protein label
