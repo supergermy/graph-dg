@@ -161,3 +161,7 @@ cython_debug/
 
 # macOS
 DS_Store
+
+# else
+dataset_splits/
+Tsuboyama_raw/
