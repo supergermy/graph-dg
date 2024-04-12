@@ -165,3 +165,9 @@ DS_Store
 # else
 dataset_splits/
 Tsuboyama_raw/
+wandb/
+*.log
+model-epochs/
+*.ipynb
+_*
+Longxing/
